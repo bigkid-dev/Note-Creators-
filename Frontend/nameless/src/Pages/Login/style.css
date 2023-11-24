@@ -1,0 +1,81 @@
+.exp {
+  padding: 40px 0;
+}
+.ali {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+.login-con {
+  background: rgba(0, 0, 0, 0.52);
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+}
+.back {
+  font-size: 18px;
+  text-align: center;
+  margin: 15px 0;
+  margin-top: 20px;
+}
+.lab-inp {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 20px 0px;
+}
+.inp {
+  width: 100%;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  height: 40px;
+  padding: 0 10px;
+}
+.fo-rem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+.rember-inp {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  margin: 10px 0;
+}
+.forgot {
+  font-size: 12px;
+  font-size: 600;
+  color: #96cadb;
+  text-decoration: none;
+}
+.l-btn {
+  width: 140px;
+  border: none;
+  background: #2f6f84;
+  color: #fff;
+  border-radius: 8px;
+  height: 40px;
+  margin: 15px 0;
+}
+#dont {
+  text-align: left;
+}
+@media only screen and (max-width: 940px) {
+  .login-con {
+    width: 320px;
+  }
+  .exp {
+    padding: 20px 0;
+  }
+  .ali {
+    gap: 10px;
+  }
+}
+@media only screen and (max-width: 440px) {
+  .login-con {
+    width: 100%;
+  }
+}

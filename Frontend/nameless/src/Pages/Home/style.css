@@ -1,0 +1,130 @@
+.home-container {
+  width: 100%;
+}
+.home-box {
+  width: 80%;
+  background: rgba(0, 0, 0, 0.63);
+  padding: 20px;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  margin: 0 auto;
+}
+.home-welcome {
+  font-size: 30px;
+  text-align: center;
+}
+.home-welcome span {
+  color: #96cadb;
+}
+.rig-lef-con {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  align-items: center;
+}
+.left-side-home {
+  font-size: 40px;
+  width: 40%;
+}
+.right-side img {
+  height: 350px;
+}
+.join-us-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.jon-btn {
+  width: 100px;
+  border: none;
+  height: 35px;
+  background: #587a85;
+  border-radius: 15px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 15px;
+}
+.already {
+  font-size: 15px;
+  text-align: center;
+}
+.alr-link {
+  color: #96cadb;
+  text-decoration: none;
+}
+.coneect-wit {
+  display: flex;
+  gap: 20px;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+.connect-txt {
+  font-size: 16px;
+  font-weight: 600;
+}
+.coneect-social {
+  font-size: 20px;
+  display: flex;
+  gap: 10px;
+}
+.insta {
+  color: rgb(244, 82, 109);
+}
+.fac-tw {
+  color: #1713da;
+}
+.copyright {
+  font-size: 13px;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 100px;
+}
+@media only screen and (max-width: 1100px) {
+  .right-side img {
+    height: 270px;
+  }
+  .left-side-home {
+    font-size: 25px;
+  }
+  .rig-lef-con {
+    margin-top: 10px;
+  }
+}
+@media only screen and (max-width: 940px) {
+  .right-side img {
+    height: 270px;
+    margin-bottom: 10px;
+  }
+  .left-side-home {
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
+  }
+  .rig-lef-con {
+    flex-direction: column;
+  }
+  .coneect-wit {
+    justify-content: center;
+    margin-left: 0px;
+  }
+  .copyright {
+    justify-content: center;
+    margin-right: 0px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .right-side img {
+    height: 250px;
+  }
+  .left-side-home {
+    font-size: 12px;
+  }
+  .home-welcome {
+    font-size: 20px;
+  }
+  .already {
+    font-size: 13px;
+  }
+}
